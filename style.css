@@ -1,0 +1,184 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    text-align:center;
+    font-family:"Raleway", sans-serif;
+}
+
+#win {
+    background-color:black;
+    width:100%;
+    height:999vh;
+    color:white;
+    position:fixed;
+    opacity:0.0;
+    top:-40px;
+    pointer-events:none;
+}
+
+#q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10 {
+    display:none;
+}
+
+.fa-solid fa-face-raised-eyebrow {
+    position:fixed;
+}
+
+#first, #q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10 {
+    margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#start, #begin, #end {
+    position:fixed;
+    width:150px;
+    height:50px;
+    background-color:yellow;
+    border:yellow solid 1px;
+    position:fixed;
+    bottom:30px;
+    left:5px;
+    right:5px;
+    margin:auto;
+    border-radius:5px;
+}
+
+#begin {
+    opacity:0.0;
+    transition:all 0.5s;
+}
+
+#teams {
+    display:none;
+}
+
+#begin_s {
+    width:200%;
+    height:999vh;
+    position:fixed;
+    left:-50px;
+    top:-50px;
+    background-color:black;
+    color:white;
+    opacity:0.0;
+    transition:all 1s;
+    pointer-events:none;
+}
+
+#green, #yellow, #blue {
+    width:200px;
+    height:50px;
+    border-radius:5px;
+    margin:5px;
+}
+
+#green {
+    background-color:green;
+    border:green solid 1px;
+}
+
+#green:hover {
+    border:black solid 1px;
+}
+
+#green:active {
+    transform:scale(0.0);
+    opacity:0.0;
+}
+
+#yellow:hover {
+    border:black solid 1px;
+}
+
+#yellow {
+    background-color:yellow;
+    border:yellow solid 1px;
+}
+
+#yellow:active {
+    transform:scale(0.0);
+    opacity:0.0;
+}
+
+
+#blue {
+    background-color:skyblue;
+    border:skyblue solid 1px;
+}
+
+#blue:hover {
+    border:black solid 1px;
+}
+
+#blue:active {
+    transform:scale(0.0);
+    opacity:0.0;
+}
+
+
+#end:hover {
+    border:black solid 1px;
+}
+
+
+#game {
+    display:none;
+}
+
+#under {
+    background-color:yellow;
+    width:285px;
+    height:5px;
+    margin:auto;
+    border-radius:50px;
+}
+
+input {
+    width:175px;
+    border:black solid 1px;
+    border-radius:5px;
+    text-indent:10px;
+    height:40px;
+}
+
+#start:hover {
+    border:black solid 1px;
+}
+
+#begin:hover {
+    border:black solid 1px;
+}
+
+button, input {
+    font-family:"Raleway", sans-serif;
+    transition:all 1s;
+    outline:none;
+}
+
+#minus, #plus {
+    position:fixed;
+    top:40%;
+    left:5%;
+    right:5%;
+    opacity:0.0;
+    transition:all 0.5;
+    pointer-events:none;
+}
+
+#plus {
+    transition:all 1s;
+}
+
+#minus {
+    transition:all 1s;
+}
+
+button {
+    cursor:pointer;
+}
