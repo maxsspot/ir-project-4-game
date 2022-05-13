@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://copyright-protection.netlify.app/protecting.js" integrity="sha512-6QwEJAHPh/z5LbzXMNQcrPkefghrw3lXluWSgqGEL8anAT8hJnOBER2YBzlrRzQclAMUp3i2Hh20ROGBipG4dg==" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+      <script src = "script.js"></script>
+      <link href = "style.css" type = "text/css"></link>
+        <title>IR Project Game!</title>
+    </head>
+    <body>
+        <div id = "menu">
+            <br>
+            <h1>IR PROJECT GAME</h1>
+            <!--<div id = "under"></div>-->
+            <button id = "start" onclick = "start()">Choose team names!</button>
+        </div>
+        <div id = "teams">
+            <br>
+            <h1>Choose names</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id = "first">
+                <h1>Team 1</h1>
+                <input placeholder = "Team 1 name.." id = "1" />
+            <br>
+            <br>
+                <h1>Team 2</h1>
+                <input placeholder = "Team 2 name.." id = "2" />
+            </div>
+            <br>
+            <button id = "begin" onclick = "begin()">Start game!</button>
+        </div>
+        <div id = "begin_s">
+            
+        </div>
+        <div id = "game">
+            <br>
+            <h1><span id = "turn"></span>, go!</h1>
+            <br>
+            <div id = "q1">
+                <h1>How many pages are there?</h1>
+                <br>
+                <button id = "green" onclick = "eeab()">128</button>
+                <br>
+                <button id = "yellow" onclick = "eea()">324</button>
+                <br>
+                <button id = "blue" onclick = "eeab()">241</button>
+            </div>
+            <div id = "q2">
+                <h1>Whose it written by?</h1>
+                <br>
+                <button id = "green" onclick = "eea()">John David Anderson</button>
+                <br>
+                <button id = "yellow" onclick = "eeab()">Dhar Mann</button>
+                <br>
+                <button id = "blue" onclick = "eeab()">Agent Jonsey</button>
+            </div>
+            <div id = "q3">
+                <h1>What's the title?</h1>
+                <br>
+                <button id = "green" onclick = "eeab()">google.com</button>
+                <br>
+                <button id = "yellow" onclick = "eeab()">Flipped (The Chicken Book)</button>
+                <br>
+                <button id = "blue" onclick = "eea()">Insert Coin to Continue</button>
+            </div>
+            <div id = "q4">
+                <h1>What's the genre?</h1>
+                <br>
+                <button id = "green" onclick = "eea()">Fiction</button>
+                <br>
+                <button id = "yellow" onclick = "eeab()">Non-Fiction</button>
+                <br>
+                <button id = "blue" onclick = "eeab()">Science Fiction</button>
+            </div>
+            <div id = "q5">
+                <h1>Do I like the book?</h1>
+                <br>
+                <button id = "green" onclick = "eeab()">No</button>
+                <br>
+                <button id = "yellow" onclick = "eea()">Yes</button>
+            </div>
+            <div id = "q6">
+                <h1>What's the book about?</h1>
+                <br>
+                <button id = "green" onclick = "eeab()">A boy named Harold wins the lottery.</button>
+                <br>
+                <button id = "yellow" onclick = "eeab()">A girl named fredrickene goes to China.</button>
+                <br>
+                <button id = "blue" onclick = "eea()">A boy named Bryan has his life turnd into a game.</button>
+            </div>
+            <div id = "q7">
+                <h1>Free point :)</h1>
+                <br>
+                <button id = "green" onclick = "eea()">Yes</button>
+            </div>
+            <div id = "q8">
+                <h1>Is the book above 300 pages?</h1>
+                <br>
+                <button id = "green" onclick = "eea()">Yes</button>
+                <br>
+                <button id = "yellow" onclick = "eeab()">No</button>
+            </div>
+            <button id = "end" onclick = "endgame()">End game</button>
+        </div>
+        <div id = "win">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1><span id = "oneS"></span> (<span id = "score1"></span> points) <span id = "teller"></span> <span id = "twoS"></span> (<span id = "score2"></span> points)</h1>
+        </div>
+        <h1 id = "minus">-1 point!</h1>
+        <h1 id = "plus">+1 point</h1>
+    </body>
+</html>
