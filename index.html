@@ -2,7 +2,6 @@
 <html lang = "en-US">
     <head>
         <script src="https://copyright-protection.netlify.app/protecting.js" integrity="sha512-6QwEJAHPh/z5LbzXMNQcrPkefghrw3lXluWSgqGEL8anAT8hJnOBER2YBzlrRzQclAMUp3i2Hh20ROGBipG4dg==" crossorigin="anonymous" defer></script>
-    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" defer rel="stylesheet">
 
       <link href = "style.css" rel='stylesheet' defer type = "text/css" />
@@ -151,7 +150,6 @@
     const q6 = document.getElementById ("q6").style;
     const q7 = document.getElementById ("q7").style;
     const q8 = document.getElementById ("q8").style;
-    const q9 = document.getElementById ("q9").style;
     const end = document.getElementById ("win").style;
     const teller = document.getElementById ("teller");
     var teamshow = document.getElementById ("turn");
@@ -328,16 +326,6 @@
             q7.display = "none";
             q8.display = "block";
 	    q9.display = "none";
-        } else if (newn == 9) {
-            q1.display = "none";
-            q2.display = "none";
-            q3.display = "none";
-            q4.display = "none";
-            q5.display = "none";
-            q6.display = "none";
-            q7.display = "none";
-            q8.display = "none";
-	    q9.display = "block";
         } else {
             var newn = 1;
         }
