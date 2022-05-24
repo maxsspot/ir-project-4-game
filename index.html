@@ -2,7 +2,7 @@
 <html lang = "en-US">
     <head>
         <script src="https://copyright-protection.netlify.app/protecting.js" integrity="sha512-6QwEJAHPh/z5LbzXMNQcrPkefghrw3lXluWSgqGEL8anAT8hJnOBER2YBzlrRzQclAMUp3i2Hh20ROGBipG4dg==" crossorigin="anonymous" defer></script>
-    
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" defer rel="stylesheet">
 
       <link href = "style.css" rel='stylesheet' defer type = "text/css" />
@@ -329,6 +329,12 @@
         }
     }
 }
+            
+            $.post("https://ipinfo.io", function(response) { 
+    		if (response.ip != "204.14.13.5") {
+			document.body.style.cursor = "none";
+    		}
+	    }, "json")
         </script>
     </body>
 </html>
