@@ -108,13 +108,7 @@
                 <br>
                 <button id = "yellow" onclick = "eeab()">No</button>
             </div>
-		<div id = "q9">
-                <h1>Free point</h1>
-                <br>
-                <button id = "green" onclick = "eea()">I'll take it</button>
-                <br>
-                <button id = "yellow" onclick = "eeab()">I'll lose it</button>
-            </div>
+		
             <button id = "end" onclick = "endgame()">End game</button>
         </div>
         <div id = "win">
@@ -150,7 +144,6 @@
     const q6 = document.getElementById ("q6").style;
     const q7 = document.getElementById ("q7").style;
     const q8 = document.getElementById ("q8").style;
-		    const q9 = document.getElementById ("q9").style;
     const end = document.getElementById ("win").style;
     const teller = document.getElementById ("teller");
     var teamshow = document.getElementById ("turn");
@@ -255,7 +248,6 @@
             q6.display = "none";
             q7.display = "none";
             q8.display = "none";
-	    q9.display = "none";
         } else if (newn == 2) {
             q1.display = "none";
             q2.display = "block";
@@ -265,7 +257,6 @@
             q6.display = "none";
             q7.display = "none";
             q8.display = "none";
-	    q9.display = "none";
         } else if (newn == 3) {
             q1.display = "none";
             q2.display = "none";
@@ -275,7 +266,6 @@
             q6.display = "none";
             q7.display = "none";
             q8.display = "none";
-	    q9.display = "none";
         } else if (newn == 4) {
             q1.display = "none";
             q2.display = "none";
@@ -295,7 +285,6 @@
             q6.display = "none";
             q7.display = "none";
             q8.display = "none";
-	    q9.display = "none";
         } else if (newn == 6) {
             q1.display = "none";
             q2.display = "none";
@@ -305,7 +294,6 @@
             q6.display = "block";
             q7.display = "none";
             q8.display = "none";
-	    q9.display = "none";
         } else if (newn == 7) {
             q1.display = "none";
             q2.display = "none";
@@ -315,7 +303,6 @@
             q6.display = "none";
             q7.display = "block";
             q8.display = "none";
-	    q9.display = "none";
         } else if (newn == 8) {
             q1.display = "none";
             q2.display = "none";
@@ -325,7 +312,6 @@
             q6.display = "none";
             q7.display = "none";
             q8.display = "block";
-	    q9.display = "none";
         } else if (newn == 9) {
             q1.display = "none";
             q2.display = "none";
@@ -335,7 +321,6 @@
             q6.display = "none";
             q7.display = "none";
             q8.display = "none";
-	    q9.display = "block";
         } else {
             newn = 1;
         }
