@@ -122,10 +122,6 @@ body {
 }
 
 
-#end:hover {
-    border:black solid 1px;
-}
-
 
 #game {
     display:none;
@@ -180,5 +176,5 @@ button, input {
 }
 
 button {
-    cursor:pointer;
+   
 }
