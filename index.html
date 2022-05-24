@@ -27,12 +27,12 @@
             <div id = "first">
                 <h1>Team 1</h1>
                 <input placeholder = "Team 1 name.." id = "1" />   
-		    <button style = "position:fixed;background-color:white;border:transparent" onclick = "random1()"><i class="fa-solid fa-shuffle"></i></button>
+		    
             <br>
             <br>
                 <h1>Team 2</h1>
                 <input placeholder = "Team 2 name.." id = "2" />   
-		    <button style = "position:fixed;background-color:white;border:transparent" onclick = "random2()"><i class="fa-solid fa-shuffle"></i></button>
+		    
             </div>
             <br>
 	    <button id = "begin" onclick = "rando()">Choose random names</button>
@@ -334,18 +334,7 @@
         }
     }
 }
-		
-		function random1 () {
-			const names1 = ["StarCatcher", "FlumsyFlamingo", "GreenBeans", "PeculiarPanda", "SpeedySeahore"];
-			var rand = names1[(Math.random() * names1.length) | 0]
-			document.getElementById ("1").value = rand;
-		}
-		
-		function random2 () {
-			const names2 = ["SickClip", "AmazingTeam", "BluePotatoes", "CrazysPays", "SpottedCheetah"];
-			var rand2 = names1[(Math.random() * names2.length) | 0]
-			document.getElementById ("2").value = rand2;
-		}
+	
             
         </script>
     </body>
