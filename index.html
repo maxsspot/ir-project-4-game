@@ -95,16 +95,25 @@
                 <button id = "blue" onclick = "eea()">A boy named Bryan has his life turnd into a game.</button>
             </div>
             <div id = "q7">
-                <h1>Free point :)</h1>
-                <br>
-                <button id = "green" onclick = "eea()">Yes</button>
-            </div>
-            <div id = "q8">
                 <h1>Is the book above 300 pages?</h1>
                 <br>
                 <button id = "green" onclick = "eea()">Yes</button>
                 <br>
                 <button id = "yellow" onclick = "eeab()">No</button>
+            </div>
+		<div id = "q8">
+                <h1>Is the main characters name Brian?</h1>
+                <br>
+                <button id = "green" onclick = "eea()">Yes</button>
+                <br>
+                <button id = "yellow" onclick = "eeab()">No</button>
+            </div>
+		<div id = "q9">
+                <h1>Free point</h1>
+                <br>
+                <button id = "green" onclick = "eea()">I'll take it</button>
+                <br>
+                <button id = "yellow" onclick = "eeab()">I'll lose it</button>
             </div>
             <button id = "end" onclick = "endgame()">End game</button>
         </div>
@@ -141,6 +150,7 @@
     const q6 = document.getElementById ("q6").style;
     const q7 = document.getElementById ("q7").style;
     const q8 = document.getElementById ("q8").style;
+		    const q9 = document.getElementById ("q").style;
     const end = document.getElementById ("win").style;
     const teller = document.getElementById ("teller");
     var teamshow = document.getElementById ("turn");
@@ -182,7 +192,6 @@
         if (teamchooser == 0) {
             team1score++;
             teamchooser++;
-		
             plus.opacity = "1.0";
             newone();
             //audio.play();
@@ -317,6 +326,16 @@
             q7.display = "none";
             q8.display = "block";
 	    q9.display = "none";
+        } else if (newn == 9) {
+            q1.display = "none";
+            q2.display = "none";
+            q3.display = "none";
+            q4.display = "none";
+            q5.display = "none";
+            q6.display = "none";
+            q7.display = "none";
+            q8.display = "none";
+	    q9.display = "block";
         } else {
             newn = 1;
         }
