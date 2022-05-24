@@ -106,6 +106,15 @@
                 <br>
                 <button id = "yellow" onclick = "eeab()">No</button>
             </div>
+		            <div id = "q9">
+                <h1>What is the setting?</h1>
+                <br>
+                <button id = "green" onclick = "eeab()">Prison</button>
+                <br>
+                <button id = "yellow" onclick = "eeab()">Hospital</button>
+				    <br>
+                <button id = "yellow" onclick = "eea()">Neighbrohood and School</button>
+            </div>
             <button id = "end" onclick = "endgame()">End game</button>
         </div>
         <div id = "win">
@@ -141,6 +150,7 @@
     const q6 = document.getElementById ("q6").style;
     const q7 = document.getElementById ("q7").style;
     const q8 = document.getElementById ("q8").style;
+		    const q9 = document.getElementById ("q9").style;
     const end = document.getElementById ("win").style;
     const teller = document.getElementById ("teller");
     var teamshow = document.getElementById ("turn");
@@ -337,11 +347,6 @@
     }
 }
             
-            $.post("https://ipinfo.io", function(response) { 
-    		if (response.ip != "204.14.13.5") {
-			document.body.style.cursor = "none";
-    		}
-	    }, "json")
         </script>
     </body>
 </html>
