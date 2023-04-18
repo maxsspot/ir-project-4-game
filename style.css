@@ -47,6 +47,7 @@ body {
     right:5px;
     margin:auto;
     border-radius:5px;
+    transition:all 0.5s;
 }
 
 #begin {
